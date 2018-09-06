@@ -17,6 +17,8 @@
 {
   NSURL *jsCodeLocation;
   [FIRApp configure];
+  [GIDSignIn sharedInstance].clientID = @"1016862154130-utol5qtrjov0ovammh5vhiqsauanu107.apps.googleusercontent.com";
+  [GIDSignIn sharedInstance].delegate = self;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
 
@@ -32,6 +34,14 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
+}
+
+- (BOOL)application:(UIApplication *)app
+            openURL:(NSURL *)url
+            options:(NSDictionary<NSString *, id> *)options {
+  return [[GIDSignIn sharedInstance] handleURL:url
+                             sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+                                    annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
 }
 
 @end

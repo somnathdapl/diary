@@ -12,6 +12,9 @@ target 'diary' do
   pod 'Firebase/Firestore', '~> 5.3.0'
   pod 'Firebase/Storage', '~> 5.3.0'
 
+  # Required by Google SignIn SDK
+  pod 'GoogleSignIn'
+
   target 'diary-tvOSTests' do
     inherit! :search_paths
     # Pods for testing

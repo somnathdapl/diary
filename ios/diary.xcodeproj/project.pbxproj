@@ -40,6 +40,10 @@
 		2DCD954D1E0B4F2C00145EB5 /* diaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* diaryTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		32F2C49F21414B58003D87EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F2C49E21414B58003D87EA /* GoogleService-Info.plist */; };
+		32F2C4D92141699D003D87EA /* RNGoogleSignInEventsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2C4D42141699C003D87EA /* RNGoogleSignInEventsBridge.m */; };
+		32F2C4DA2141699D003D87EA /* RNGoogleSignInEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2C4D52141699C003D87EA /* RNGoogleSignInEvents.swift */; };
+		32F2C4DB2141699D003D87EA /* RNGoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2C4D72141699D003D87EA /* RNGoogleSignIn.swift */; };
+		32F2C4DC2141699D003D87EA /* RNGoogleSignInBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2C4D82141699D003D87EA /* RNGoogleSignInBridge.m */; };
 		3FCB9D769CAF42E1B38EC8C8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2608B216A4B47188D8A9D9C /* Ionicons.ttf */; };
 		5C79BB70ABB14F08A2C7B9B9 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2A543889B27469A98111C85 /* MaterialIcons.ttf */; };
 		5DD8510D15B5492DA639D8A7 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A7EC1BA95A4A0CA11B117A /* libRNFirebase.a */; };
@@ -372,6 +376,12 @@
 		2D02E4901E0B4A5D006451C7 /* diary-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diary-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F2C49E21414B58003D87EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32F2C4D32141699B003D87EA /* diary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diary-Bridging-Header.h"; sourceTree = "<group>"; };
+		32F2C4D42141699C003D87EA /* RNGoogleSignInEventsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNGoogleSignInEventsBridge.m; path = "../node_modules/react-native-google-sign-in/ios/RNGoogleSignIn/RNGoogleSignInEventsBridge.m"; sourceTree = "<group>"; };
+		32F2C4D52141699C003D87EA /* RNGoogleSignInEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNGoogleSignInEvents.swift; path = "../node_modules/react-native-google-sign-in/ios/RNGoogleSignIn/RNGoogleSignInEvents.swift"; sourceTree = "<group>"; };
+		32F2C4D62141699D003D87EA /* RNGoogleSignIn-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RNGoogleSignIn-Bridging-Header.h"; path = "../node_modules/react-native-google-sign-in/ios/RNGoogleSignIn/RNGoogleSignIn-Bridging-Header.h"; sourceTree = "<group>"; };
+		32F2C4D72141699D003D87EA /* RNGoogleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNGoogleSignIn.swift; path = "../node_modules/react-native-google-sign-in/ios/RNGoogleSignIn/RNGoogleSignIn.swift"; sourceTree = "<group>"; };
+		32F2C4D82141699D003D87EA /* RNGoogleSignInBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNGoogleSignInBridge.m; path = "../node_modules/react-native-google-sign-in/ios/RNGoogleSignIn/RNGoogleSignInBridge.m"; sourceTree = "<group>"; };
 		340B2293ED6F4FCCAFA3B946 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		39ABAB6707F5416B9E42C78E /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		49EFFE9B4391DA07C137569C /* Pods-diaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-diaryTests/Pods-diaryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -543,6 +553,11 @@
 		13B07FAE1A68108700A75B9A /* diary */ = {
 			isa = PBXGroup;
 			children = (
+				32F2C4D62141699D003D87EA /* RNGoogleSignIn-Bridging-Header.h */,
+				32F2C4D72141699D003D87EA /* RNGoogleSignIn.swift */,
+				32F2C4D82141699D003D87EA /* RNGoogleSignInBridge.m */,
+				32F2C4D52141699C003D87EA /* RNGoogleSignInEvents.swift */,
+				32F2C4D42141699C003D87EA /* RNGoogleSignInEventsBridge.m */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -550,6 +565,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				32F2C4D32141699B003D87EA /* diary-Bridging-Header.h */,
 			);
 			name = diary;
 			sourceTree = "<group>";
@@ -825,6 +841,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 0940;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1299,10 +1318,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-diary/Pods-diary-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1471,6 +1494,10 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				32F2C4D92141699D003D87EA /* RNGoogleSignInEventsBridge.m in Sources */,
+				32F2C4DC2141699D003D87EA /* RNGoogleSignInBridge.m in Sources */,
+				32F2C4DB2141699D003D87EA /* RNGoogleSignIn.swift in Sources */,
+				32F2C4DA2141699D003D87EA /* RNGoogleSignInEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1523,6 +1550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE0CC207CF9F1FE62E69CF0F /* Pods-diaryTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1552,6 +1580,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49EFFE9B4391DA07C137569C /* Pods-diaryTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
@@ -1579,6 +1608,7 @@
 			baseConfigurationReference = BF34BAF8EE5E99672114B0BA /* Pods-diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
@@ -1593,6 +1623,9 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = diary;
+				SWIFT_OBJC_BRIDGING_HEADER = "diary-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1602,6 +1635,7 @@
 			baseConfigurationReference = 4E1F7A8F9323CACED427752D /* Pods-diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1615,6 +1649,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = diary;
+				SWIFT_OBJC_BRIDGING_HEADER = "diary-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

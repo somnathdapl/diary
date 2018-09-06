@@ -4496,6 +4496,10 @@ react-native-firebase@^4.3.8:
     postinstall-build "^5.0.1"
     prop-types "^15.6.1"
 
+react-native-google-sign-in@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/react-native-google-sign-in/-/react-native-google-sign-in-1.0.16.tgz#94d59b4ff7613955d9d51ceb4623a2162b3cb5d2"
+
 react-native-iphone-x-helper@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.1.0.tgz#3a881720900bd8d1c67de2c465ea9aa9296180a7"

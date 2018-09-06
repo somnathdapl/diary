@@ -6,8 +6,10 @@
  */
 
 #import <UIKit/UIKit.h>
+@import GoogleSignIn;
+//#include <GoogleSignIn.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, GIDSignInDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
 
