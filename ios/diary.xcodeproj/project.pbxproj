@@ -39,6 +39,7 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* diaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* diaryTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		32F2C49F21414B58003D87EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32F2C49E21414B58003D87EA /* GoogleService-Info.plist */; };
 		3FCB9D769CAF42E1B38EC8C8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2608B216A4B47188D8A9D9C /* Ionicons.ttf */; };
 		5C79BB70ABB14F08A2C7B9B9 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2A543889B27469A98111C85 /* MaterialIcons.ttf */; };
 		5DD8510D15B5492DA639D8A7 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A7EC1BA95A4A0CA11B117A /* libRNFirebase.a */; };
@@ -370,6 +371,7 @@
 		2D02E47B1E0B4A5D006451C7 /* diary-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diary-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* diary-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "diary-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F2C49E21414B58003D87EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		340B2293ED6F4FCCAFA3B946 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		39ABAB6707F5416B9E42C78E /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		49EFFE9B4391DA07C137569C /* Pods-diaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-diaryTests/Pods-diaryTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -668,6 +670,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				32F2C49E21414B58003D87EA /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* diary */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* diaryTests */,
@@ -1202,6 +1205,7 @@
 				5C79BB70ABB14F08A2C7B9B9 /* MaterialIcons.ttf in Resources */,
 				F1D43E99D01E4C51B8DEA324 /* Octicons.ttf in Resources */,
 				C805429A6F234C9588B5DCFA /* Roboto_medium.ttf in Resources */,
+				32F2C49F21414B58003D87EA /* GoogleService-Info.plist in Resources */,
 				1D3A3D6298FE4957B1AF9DA7 /* Roboto.ttf in Resources */,
 				22782321C718426AA16A8550 /* rubicon-icon-font.ttf in Resources */,
 				EBE1758873424862BE16E146 /* SimpleLineIcons.ttf in Resources */,
