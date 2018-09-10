@@ -1623,6 +1623,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezoominc.diary;
 				PRODUCT_NAME = diary;
 				SWIFT_OBJC_BRIDGING_HEADER = "diary-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1650,6 +1651,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezoominc.diary;
 				PRODUCT_NAME = diary;
 				SWIFT_OBJC_BRIDGING_HEADER = "diary-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
