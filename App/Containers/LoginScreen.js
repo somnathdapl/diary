@@ -10,11 +10,15 @@ import { Container, Button } from 'native-base'
 import Image from 'react-native-remote-svg'
 import GoogleSignIn from 'react-native-google-sign-in'
 import firebase from 'firebase'
+import { bindActionCreators } from "redux";
 
-import { authAction } from '../Actions/AuthAction'
+import  {authAction}  from '../Actions/AuthAction'
 
 class LoginScreen extends Component {
-
+constructor(props)
+{
+  super(props);
+}
   async loginWithGoogle() {
     await GoogleSignIn.configure({
       // iOS

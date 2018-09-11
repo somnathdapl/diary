@@ -98,7 +98,8 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.ezoominc.diary"
+        //package name changed from com.ezoominc.diary to com.diary
+        applicationId "com.diary"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -106,6 +107,10 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        //this line added to remove the error in build
+        multiDexEnabled true
+
+        
     }
     splits {
         abi {

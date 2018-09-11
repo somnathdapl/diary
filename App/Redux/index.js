@@ -5,6 +5,8 @@ import configureStore from './CreateStore'
 import { navReducer, middleware } from '../Navigation/AppNavigation'
 import { authReducer } from './AuthRedux'
 
+
+
 /* ------------- Assemble The Reducers ------------- */
 export const reducers = combineReducers({
     nav: navReducer,
